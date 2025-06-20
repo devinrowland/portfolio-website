@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Devin Rowland</title>
+
+		<!--
+    - favicon
+  -->
+		<link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon" />
+
+		<!--
+    - custom css link
+  -->
+		<link rel="stylesheet" href="./assets/css/style.css" />
+
+		<!--
+    - google font link
+  -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+
+	<body>
+		<!--
+    - #MAIN
+  -->
+
+		<main>
+			<!--
+      - #SIDEBAR
+    -->
+
+			<aside class="sidebar" data-sidebar>
+				<div class="sidebar-info">
+					<figure class="avatar-box">
+						<img src="./assets/images/my-avatar.png" width="80" />
+					</figure>
+
+					<div class="info-content">
+						<h1 class="name" title="Devin Rowland">Devin Rowland</h1>
+
+						<p class="title">Developer</p>
+					</div>
+
+					<button class="info_more-btn" data-sidebar-btn>
+						<span>Show Contacts</span>
+
+						<ion-icon name="chevron-down"></ion-icon>
+					</button>
+				</div>
+
+				<div class="sidebar-info_more">
+					<div class="separator"></div>
+
+					<ul class="contacts-list">
+						<li class="contact-item">
+							<div class="icon-box">
+								<ion-icon name="mail-outline"></ion-icon>
+							</div>
+
+							<div class="contact-info">
+								<p class="contact-title">Email</p>
+
+								<a href="mailto:devincrowland@gmail.com" class="contact-link"
+									>devincrowland@gmail.com</a
+								>
+							</div>
+						</li>
+
+						<li class="contact-item">
+							<div class="icon-box">
+								<ion-icon name="calendar-outline"></ion-icon>
+							</div>
+
+							<div class="contact-info">
+								<p class="contact-title">Birthday</p>
+
+								<time datetime="1998-06-30">June 30, 1998</time>
+							</div>
+						</li>
+
+						<li class="contact-item">
+							<div class="icon-box">
+								<ion-icon name="location-outline"></ion-icon>
+							</div>
+
+							<div class="contact-info">
+								<p class="contact-title">Location</p>
+
+								<address>Portland, Oregon, USA</address>
+							</div>
+						</li>
+					</ul>
+
+					<div class="separator"></div>
+
+					<ul class="social-list">
+						<li class="social-item">
+							<a
+								href="https://www.instagram.com/devinn.rowland/"
+								target="_blank"
+								class="social-link"
+							>
+								<ion-icon name="logo-instagram"></ion-icon>
+							</a>
+						</li>
+
+						<li class="social-item">
+							<a
+								href="https://www.linkedin.com/in/devin-rowland-b77aa1183/"
+								target="_blank"
+								class="social-link"
+							>
+								<ion-icon name="logo-linkedin"></ion-icon>
+							</a>
+						</li>
+
+						<li class="social-item">
+							<a href="https://github.com/devinrowland" target="_blank" class="social-link">
+								<ion-icon name="logo-github"></ion-icon>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</aside>
+
+			<!--
+      - #main-content
+    -->
+
+			<div class="main-content">
+				<!--
+        - #NAVBAR
+      -->
+
+				<nav class="navbar">
+					<ul class="navbar-list">
+						<li class="navbar-item">
+							<button class="navbar-link active" data-nav-link>About</button>
+						</li>
+
+						<li class="navbar-item">
+							<button class="navbar-link" data-nav-link>Resume</button>
+						</li>
+
+						<li class="navbar-item">
+							<button class="navbar-link" data-nav-link>Portfolio</button>
+						</li>
+
+						<li class="navbar-item">
+							<button class="navbar-link" data-nav-link>Contact</button>
+						</li>
+					</ul>
+				</nav>
+
+				<!--
+        - #ABOUT
+      -->
+
+				<article class="about active" data-page="about">
+					<header>
+						<h2 class="h2 article-title">About me</h2>
+					</header>
+
+					<section class="about-text">
+						<p>
+							Hi, I'm Devin Rowland - Front-End Developer & UI/UX Designer from Portland, Oregon.
+						</p>
+
+						<p>
+							My foundation is in crafting intuitive websites and web applications, but my current
+							specialization is in front-end development and UI/UX design. I’m passionate about
+							creating seamless user experiences and blending aesthetic design with functional code.
+						</p>
+
+						<p>
+							Lately, my curiosity has been shifting toward the data-driven side of tech — from data
+							analysis to engineering and data visualiztion. I'm excited to explore opportunities
+							that allow me to dive deeper into data, expand my skillset, and contribute to
+							impactful, innovative projects.
+						</p>
+
+						<p>
+							Whether it's continuing in design, stepping into data, or exploring new paths, I'm
+							open to a wide range of opportunities where I can learn, grow, and make a difference.
+						</p>
+					</section>
+
+					<!--
+          - service
+        -->
+
+					<section class="service">
+						<h3 class="h3 service-title">What i'm doing</h3>
+
+						<ul class="service-list">
+							<li class="service-item">
+								<div class="service-icon-box">
+									<img
+										src="./assets/images/icon-design.svg
+                "
+										alt="design icon"
+										width="40"
+									/>
+								</div>
+
+								<div class="service-content-box">
+									<h4 class="h4 service-item-title">Web design</h4>
+
+									<p class="service-item-text">
+										The most modern and high-quality design made at a professional level.
+									</p>
+								</div>
+							</li>
+
+							<li class="service-item">
+								<div class="service-icon-box">
+									<img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40" />
+								</div>
+
+								<div class="service-content-box">
+									<h4 class="h4 service-item-title">Web development</h4>
+
+									<p class="service-item-text">
+										High-quality development of sites at the professional level.
+									</p>
+								</div>
+							</li>
+
+							<li class="service-item">
+								<div class="service-icon-box">
+									<img src="./assets/images/icon-report.svg" alt="mobile app icon" width="40" />
+								</div>
+
+								<div class="service-content-box">
+									<h4 class="h4 service-item-title">Data Reports</h4>
+
+									<p class="service-item-text">
+										A growing skillset in creating clear, insightful data reports.
+									</p>
+								</div>
+							</li>
+
+							<li class="service-item">
+								<div class="service-icon-box">
+									<img src="./assets/images/icon-photo.svg" alt="camera icon" width="40" />
+								</div>
+
+								<div class="service-content-box">
+									<h4 class="h4 service-item-title">Project Management</h4>
+
+									<p class="service-item-text">
+										Organizing your work, managing deadlines, and delivering projects on time and
+										within budget.
+									</p>
+								</div>
+							</li>
+						</ul>
+					</section>
+
+					<!--
+          - testimonials modal
+        -->
+
+					<div class="modal-container" data-modal-container>
+						<div class="overlay" data-overlay></div>
+
+						<section class="testimonials-modal">
+							<button class="modal-close-btn" data-modal-close-btn>
+								<ion-icon name="close-outline"></ion-icon>
+							</button>
+
+							<div class="modal-content">
+								<h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+								<time datetime="2021-06-14">14 June, 2021</time>
+
+								<div data-modal-text>
+									<p>
+										Richard was hired to create a corporate identity. We were very pleased with the
+										work done. She has a lot of experience and is very concerned about the needs of
+										client. Lorem ipsum dolor sit amet, ullamcous cididt consectetur adipiscing
+										elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+									</p>
+								</div>
+							</div>
+						</section>
+					</div>
+
+					<!--
+          - clients
+        -->
+
+					<section class="clients"></section>
+				</article>
+
+				<!--
+        - #RESUME
+      -->
+
+				<article class="resume" data-page="resume">
+					<header>
+						<h2 class="h2 article-title">Resume</h2>
+					</header>
+
+					<section class="timeline">
+						<div class="title-wrapper">
+							<div class="icon-box">
+								<ion-icon name="book-outline"></ion-icon>
+							</div>
+
+							<h3 class="h3">Experience</h3>
+						</div>
+
+						<ol class="timeline-list">
+							<li class="timeline-item">
+								<h4 class="h4 timeline-item-title" style="margin-bottom: 0">
+									Contracted Front-End Developer
+								</h4>
+								<span style="color: white">We Are Technology</span>
+								<span>2022 - 2024</span>
+
+								<p class="timeline-text">
+									Working closely with business owners to help meet their specific needs and find
+									solutions.
+									<br />
+									HTML, CSS, React, Javascript, PHP are all skills I use to develop websites or
+									applications.
+									<br />
+									Working in a collaborative setting with other programmers to solve problems and
+									create an efficient workflow, oftentimes completing projects on deadlines or
+									before.
+									<br />
+									Troubleshooting budgets to meet the needs of the client while also delivering
+									quality work.
+								</p>
+							</li>
+
+							<li class="timeline-item">
+								<h4 class="h4 timeline-item-title" style="margin-bottom: 0">
+									Contracted Web Developer
+								</h4>
+								<span style="color: white">Lost Coast Ventures</span>
+								<span>2022</span>
+
+								<p class="timeline-text">
+									Worked with React, AWS S3 and Route 53 to develop and launch the website.
+									<br />
+									Designed the fundamentals of the website while adding collaborative designs from
+									the owners.
+								</p>
+							</li>
+
+							<li class="timeline-item">
+								<h4 class="h4 timeline-item-title" style="margin-bottom: 0">Front End Assistant</h4>
+								<span style="color: white">Costco</span>
+
+								<span>2021</span>
+
+								<p class="timeline-text">
+									Provided a positive customer service experience while keeping up with efficient
+									customer checkout rates.
+									<br />
+									Displayed flexibility by working in multiple different areas of the warehouse when
+									needed.
+								</p>
+							</li>
+
+							<li class="timeline-item">
+								<h4 class="h4 timeline-item-title" style="margin-bottom: 0">Scholarship Athlete</h4>
+								<span style="color: white">College Track and Field</span>
+
+								<span>2016 — 2020</span>
+
+								<p class="timeline-text">
+									Committed 30 hours a week to training, injury rehabilitation, meetings, travel and
+									competitions while being full-time student.
+									<br />
+									Developed work ethic, leadership and dedication towards team and individual goals.
+									<br />
+									Hosted multiple facility tours to new athletes, recruits, and grade schools.
+								</p>
+							</li>
+						</ol>
+					</section>
+
+					<section class="timeline">
+						<div class="title-wrapper">
+							<div class="icon-box">
+								<ion-icon name="book-outline"></ion-icon>
+							</div>
+
+							<h3 class="h3">Education</h3>
+						</div>
+
+						<ol class="timeline-list">
+							<li class="timeline-item">
+								<h4 class="h4 timeline-item-title" style="margin-bottom: 0">Cal Poly Humboldt</h4>
+								<span style="color: white">Bachelor of Science in Computer Science</span>
+								<span>2016 - 2020</span>
+
+								<p class="timeline-text">
+									Related Coursework: Software engineering, databases, web applications, algorithms,
+									data structures, security and telecommunications.
+									<br />
+									Building fundamental teamwork and communication skills through group based
+									projects
+								</p>
+							</li>
+
+							<li class="timeline-item">
+								<h4 class="h4 timeline-item-title">Mckinleyville High School</h4>
+
+								<span>2012 - 2016</span>
+
+								<p class="timeline-text">
+									3.5 GPA while taking AP level courses (i.e Psychics, Chemistry and Calculus).
+									<br />
+									Dual sport varsity athlete (Track and Field / Basketball).
+									<br />
+									20 hours volunteering helping out at local marathons and holiday runs.
+								</p>
+							</li>
+						</ol>
+					</section>
+				</article>
+
+				<!--
+        - #PORTFOLIO
+      -->
+
+				<article class="portfolio" data-page="portfolio">
+					<header>
+						<h2 class="h2 article-title">Portfolio</h2>
+					</header>
+
+					<section class="projects">
+						<ul class="filter-list">
+							<li class="filter-item">
+								<button class="active" data-filter-btn>All</button>
+							</li>
+
+							<li class="filter-item">
+								<button data-filter-btn>Web Development</button>
+							</li>
+
+							<li class="filter-item">
+								<button data-filter-btn>Data Reports</button>
+							</li>
+
+							<li class="filter-item">
+								<button data-filter-btn>Certifications</button>
+							</li>
+						</ul>
+
+						<div class="filter-select-box">
+							<button class="filter-select" data-select>
+								<div class="select-value" data-selecct-value>Select category</div>
+
+								<div class="select-icon">
+									<ion-icon name="chevron-down"></ion-icon>
+								</div>
+							</button>
+
+							<ul class="select-list">
+								<li class="select-item">
+									<button data-select-item>All</button>
+								</li>
+
+								<li class="select-item">
+									<button data-select-item>Web Development</button>
+								</li>
+
+								<li class="select-item">
+									<button data-select-item>Data Reports</button>
+								</li>
+
+								<li class="select-item">
+									<button data-select-item>Certifications</button>
+								</li>
+							</ul>
+						</div>
+
+						<ul class="project-list">
+							<li class="project-item active" data-filter-item data-category="web development">
+								<a href="https://www.lostcoastventures.com/" target="_blank">
+									<figure class="project-img">
+										<div class="project-item-icon-box">
+											<ion-icon name="eye-outline"></ion-icon>
+										</div>
+
+										<img src="./assets/images/lostcoastventures.png" alt="LCV" loading="lazy" />
+									</figure>
+
+									<h3 class="project-title">Lost Coast Ventures</h3>
+
+									<p class="project-category">Web Development</p>
+								</a>
+							</li>
+
+							<li class="project-item active" data-filter-item data-category="data reports">
+								<a href="#">
+									<figure class="project-img">
+										<div class="project-item-icon-box">
+											<ion-icon name="eye-outline"></ion-icon>
+										</div>
+
+										<img src="./assets/images/lostcoastventures.png" alt="data1" loading="lazy" />
+									</figure>
+
+									<h3 class="project-title">Data 1</h3>
+
+									<p class="project-category">Data Reports</p>
+								</a>
+							</li>
+
+							<li class="project-item active" data-filter-item data-category="data reports">
+								<a href="#">
+									<figure class="project-img">
+										<div class="project-item-icon-box">
+											<ion-icon name="eye-outline"></ion-icon>
+										</div>
+
+										<img src="./assets/images/lostcoastventures.png" alt="fundo" loading="lazy" />
+									</figure>
+
+									<h3 class="project-title">Data 2</h3>
+
+									<p class="project-category">Data Reports</p>
+								</a>
+							</li>
+
+							<li class="project-item active" data-filter-item data-category="data reports">
+								<a href="#">
+									<figure class="project-img">
+										<div class="project-item-icon-box">
+											<ion-icon name="eye-outline"></ion-icon>
+										</div>
+
+										<img src="./assets/images/lostcoastventures.png" alt="data3" loading="lazy" />
+									</figure>
+
+									<h3 class="project-title">Data 3</h3>
+
+									<p class="project-category">Data Reports</p>
+								</a>
+							</li>
+
+							<li class="project-item active" data-filter-item data-category="certifications">
+								<a
+									href="./assets/images/RowlandDataAnalyticsCertifaction.pdf"
+									download="RowlandDataAnalyticsCertifaction"
+								>
+									<figure class="project-img">
+										<div class="project-item-icon-box">
+											<ion-icon name="eye-outline"></ion-icon>
+										</div>
+
+										<img
+											src="./assets/images/certification.png"
+											alt="googleanalytics"
+											loading="lazy"
+										/>
+									</figure>
+
+									<h3 class="project-title">Google Analytics</h3>
+
+									<p class="project-category">Certifactions</p>
+								</a>
+							</li>
+						</ul>
+					</section>
+				</article>
+
+				<!--
+        - #CONTACT
+      -->
+
+				<article class="contact" data-page="contact">
+					<header>
+						<h2 class="h2 article-title">Contact</h2>
+					</header>
+
+					<section class="about-text">
+						<p>
+							I’m currently taking on freelance web development work, and am always open to new
+							opportunities. Whether you have a project in mind, want to collaborate, or have a
+							chat, I’d love to hear from you.
+						</p>
+						<p>See the contact form below to get in touch, it goes straight to my inbox!</p>
+					</section>
+
+					<section class="contact-form">
+						<h3 class="h3 form-title">Contact Form</h3>
+
+						<form action="https://api.web3forms.com/submit" method="POST" class="form" data-form>
+							<div class="input-wrapper">
+								<input
+									type="hidden"
+									name="access_key"
+									value="ae644853-afba-40f5-9dbe-d784a70d4262"
+								/>
+								<input
+									type="text"
+									name="name"
+									class="form-input"
+									placeholder="Full name"
+									required
+									data-form-input
+								/>
+
+								<input
+									type="email"
+									name="email"
+									class="form-input"
+									placeholder="Email address"
+									required
+									data-form-input
+								/>
+							</div>
+
+							<textarea
+								name="message"
+								class="form-input"
+								placeholder="Your Message"
+								required
+								data-form-input
+							></textarea>
+
+							<button class="form-btn" type="submit" disabled data-form-btn>
+								<ion-icon name="paper-plane"></ion-icon>
+								<span>Send Message</span>
+							</button>
+						</form>
+					</section>
+				</article>
+			</div>
+		</main>
+
+		<!--
+    - custom js link
+  -->
+		<script src="./assets/js/script.js"></script>
+
+		<!--
+    - ionicon link
+  -->
+		<script
+			type="module"
+			src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+		></script>
+		<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+	</body>
+</html>
